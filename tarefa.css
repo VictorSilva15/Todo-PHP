@@ -1,0 +1,71 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:  #181818;
+	font-family:  sans-serif;
+}
+h1{
+	text-align: center;
+}
+form{
+	width: min(90%, 800px)
+}
+form fieldset{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: relative;
+}
+form fieldset label{
+	display: flex;
+	flex-direction: column;
+	gap:  10px;
+}
+form fieldset .inputs{
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+form fieldset label .input{
+	width: 80%;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	background: #e5e5e5;
+	padding: 10px;
+	position: relative;
+}
+textarea{
+	position: relative;
+	max-width: 100%;
+	min-height: 200px;
+	border: none;
+	border-radius: 4px;
+	background: #e5e5e5;
+	padding: 10px;
+}
+#btnsubmit{
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	background: #181818;
+	color: #f0f2f5;
+	cursor: pointer;
+}
+.table-modal{
+	width: 100%;
+	overflow-x: auto;
+}
+table{
+	width:  750px;
+	margin: 20px auto;
+}
+table tr td {
+	text-align: center;
+	padding: 20px;
+	background: #e5e5e5;
+}
